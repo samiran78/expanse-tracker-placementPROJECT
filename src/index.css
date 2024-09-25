@@ -1,0 +1,52 @@
+*{
+  padding:  0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.content {
+  height: 195vh;
+}
+
+.resgister-page {
+  display: flex;
+  background-color: lightsalmon;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 90vh;
+}
+.login-page{
+  display: flex;
+  background-color: rgb(222, 207, 37);
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 90vh;
+}
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 19px;
+  background-color: #cb52d1;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px rgba(0,0,0,52)
+  
+}
+.switch-icon{
+  box-shadow: 0 0 15px black;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+.active-icon{
+  color: black;
+}
+.inactive-icon{
+  color: gray;
+}
